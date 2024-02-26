@@ -1,0 +1,148 @@
+:root{
+    --text-color:#FFFFFF;
+    --text-secondary:#F8F9F9;
+    --texte-terceary:#F4F6F6;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/image/lago.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.0em;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin-bottom: 15.0rem;
+    /* background-color: chocolate; */
+    
+}
+
+
+#listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    gap: 2.0rem;
+    margin: 0rem 0rem 0rem -19.5rem;
+    color: var(--texte-terceary);
+}
+
+#principal{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 35.5rem;
+}
+#chamada-acao{
+    display: flex;
+    flex-direction: column;
+    text-align: start;    
+}
+
+#texto-chamada{
+    width: 35.0rem;
+    height: 10.rem;
+    /* background-color: blueviolet; */
+    line-height: 2rem;
+    text-align: justify;
+    font-weight: 500;
+    color: var(--texte-terceary);
+}
+
+#titulo-chamada{
+    margin-bottom: 1.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* background-color: blueviolet; */
+    text-align: center;
+    width: 35.0rem;
+    line-height: 2.3rem;
+    color: var(--text-color);
+}
+
+#formulario{
+    background: linear-gradient(rgb(192, 192, 192,0.3),rgb(192, 192, 192,0.3) );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    justify-content: space-evenly;
+    line-height: 1.9rem;
+    color: var(--text-color);
+    border-radius: 0.50em;
+}
+
+footer{
+    height: 7.0em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--text-color);
+    /* background-color: aqua; */
+
+}
+
+footer p{
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h1{
+    font-weight: 700;
+    font-size: medium;
+    color: var(--text-color);
+}
+
+h3{
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+input label{
+    color: var(--texte-terceary);
+}
+
+nav ul {
+    font-weight: 500;
+
+}
+
+.botao-cadastro{
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.botao-formulario{
+    font-size: medium;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: 500;
+}
+
